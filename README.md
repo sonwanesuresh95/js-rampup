@@ -170,3 +170,233 @@ a = 10;
 console.log(a);
 // SyntaxError: Missing initializer in const declaration
 ```
+## arithmetic operations
+### addition and subtraction
+<table>
+<tr>
+<td>addition</td>
+<td>code</td>
+<td>subtraction</td>
+<td colspan=2>code</td>
+</tr>
+<tr>
+<td>
+
+```js
+num + num = num
+```
+</td>
+<td>
+
+```js
+let a = 10, b = 20;
+c = a + b;
+console.log(c);
+// 30
+```
+</td>
+<td>
+
+```js
+num - num = num
+```
+</td>
+<td colspan=2>
+
+```js
+let a = 10, b = 20;
+c = a - b;
+console.log(c);
+// -10
+```
+</td>
+</tr>
+<tr>
+<td>
+
+```js
+num + str = str
+```
+</td>
+<td>
+
+```js
+let a = 10, b = 'yes';
+c = a + b;
+console.log(c);
+// 10yes
+```
+</td>
+<td>
+
+```js
+
+num - str = NaN or num
+```
+</td>
+<td>
+
+```js
+let a = 10, b = 'ok';
+c = a - b;
+console.log(c);
+// NaN
+```
+</td>
+<td>
+
+```js
+let a = 10, b = '5';
+c = a - b;
+console.log(c);
+// 5
+```
+</td>
+</tr>
+<tr>
+<td>
+
+```js
+str + num = str
+```
+</td>
+<td>
+
+```js
+let a = 'CR', b = 7;
+c = a + b;
+console.log(c);
+// CR7
+```
+</td>
+<td>
+
+```js
+str - num = NaN or num
+```
+</td>
+<td>
+
+```js
+let a = 'ok', b = 20;
+c = a - b;
+console.log(c);
+// NaN
+```
+</td>
+<td>
+
+```js
+let a = '10', b = 20;
+c = a - b;
+console.log(c);
+// -10
+```
+</td>
+</tr>
+<tr>
+<td>
+
+```js
+str + str = str
+```
+</td>
+<td>
+
+```js
+let a = 'okay', b = 'sure';
+c = a + b;
+console.log(c);
+// okaysure
+```
+</td>
+<td>
+
+```js
+str - str = NaN or num
+```
+</td>
+<td>
+
+```js
+let a = 'ok', b = 'sure';
+c = a - b;
+console.log(c);
+// NaN
+```
+</td>
+<td>
+
+```js
+let a = '10', b = '20';
+c = a - b;
+console.log(c);
+// -10
+```
+</td>
+</tr>
+</table>
+
+### multiplication and division
+<table>
+<tr>
+<td>multiplication</td>
+<td>division</td>
+</tr>
+<tr>
+<td>
+
+```js
+num * num = num
+```
+</td>
+<td>
+
+```js
+num / num = num
+```
+</td>
+</tr>
+<tr>
+<td>
+
+```js
+num * str = NaN or num
+```
+</td>
+<td>
+
+```js
+num / str = NaN or num
+```
+</td>
+</tr>
+<tr>
+<td>
+
+```js
+str * num = NaN or num
+```
+</td>
+<td>
+
+```js
+str / num = NaN or num
+```
+</td>
+</tr>
+<tr>
+<td>
+
+```js
+str * str = NaN or num
+```
+</td>
+<td>
+
+```js
+str / str = NaN or num
+```
+</td>
+</tr>
+</table>
