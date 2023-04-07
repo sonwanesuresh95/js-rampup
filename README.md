@@ -111,7 +111,7 @@ let a = 10;
 console.log(a);
 // 10
 ```
-8. let - does value change after in-scope reassignment? (without let)-> No
+8. let - does value change after in-scope reassignment? (without let)-> Yes
 ```js
 let a = 10;
 {
@@ -120,7 +120,7 @@ let a = 10;
 console.log(a);
 // great
 ```
-9. const - does value change after in-scope reassignment? -> Yes
+9. const - does value change after in-scope reassignment? -> No
 ```js
 const a = 10;
 {
